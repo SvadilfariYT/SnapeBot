@@ -6,21 +6,26 @@ from colorama import Fore, Style
 # load language model
 #nlp = spacy.load("en_core_web_lg")
 
+def getModifiedAnswer(user_input : str):
+    # TODO check for similar user_input  instead of exact
+    if (user_input in memory):
+        return "You have already asked me that"
+    return None
+
 # MAIN METHOD
 if __name__ == '__main__':
     user_input = input(">>> ").lower().strip()
+    memory = {'question 1' : 'answer1'}
     
     while "exit" not in user_input.lower():
-        #get user_input
-        #save user_input in variable (as key-value pairs with answer?)
-        #check if user_input = / similar to variable
-        #if true
-            #change answer
-        #if false
-            #...
+        
+        # Check if already asked
+        answer = getModifiedAnswer(user_input)
+            
 
         # Template-Based-Pattern-Matching
-        answer = templatebased_answer(user_input)
+        if(answer == None):
+            answer = templatebased_answer(user_input)
 
         # Corpus-Based-Matching (Tfidf)
         if(answer == None):
@@ -29,6 +34,8 @@ if __name__ == '__main__':
         # Standard/Fallback Answer
         if(answer == None):
             answer = "I don't know that. Sorry"
+
+        memory[user_input] = answer
 
         print(Fore.GREEN + answer + Style.RESET_ALL)
         user_input = input(">>> ")  
