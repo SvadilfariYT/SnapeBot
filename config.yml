@@ -1,4 +1,6 @@
 DEFAULT:
+  required_similarity_tfidf: 0.5
+TFIDF:
   min_df: 4
   max_df: 0.4
   ngram_range_min: 1
