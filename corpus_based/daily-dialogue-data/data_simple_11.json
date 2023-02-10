@@ -1,0 +1,63 @@
+
+[
+  {
+  "dialog": "Is Friday at 6 PM good for you?"
+  },
+  {
+  "dialog": "Definitely, I'll cast a spell to reserve that time for you."
+  },
+  {
+  "dialog": "Awesome, I'll be there then. Thank you!"
+  },
+  {
+  "dialog": "Today I'd like to discuss with you the magical insurance options that might interest you."
+  },
+  {
+  "dialog": "That sounds great! I was wondering if I could get both life and health insurance."
+  },
+  {
+  "dialog": "Sure thing! You'll get 2 weeks of paid vacation each year and a 5-day workweek."
+  },
+  {
+  "dialog": "Perfect. Is there anything else included?"
+  },
+  {
+  "dialog": "Yes, all your insurance will be tied to your work. We'll also provide you with an enchanted insurance policy."
+  },
+  {
+  "dialog": "Next up, how may I assist you, wizard?"
+  },
+  {
+  "dialog": "I'd like to send a registered airmail letter to France, please."
+  },
+  {
+  "dialog": "Got it, that will be 4 dollars and 20 cents."
+  },
+  {
+  "dialog": "Here's 5 dollars."
+  },
+  {
+  "dialog": "Here's your change. You will receive a receipt of the registered mail soon."
+  },
+  {
+  "dialog": "Oh, and I also need to send this package. This is the note for it."
+  },
+  {
+  "dialog": "Let me take a look... just a moment. Here it is. I'll need you to sign this note."
+  },
+  {
+  "dialog": "And one more thing, where can I mail this letter?"
+  },
+  {
+  "dialog": "Just drop it in the out of town mailbox at that corner."
+  },
+  {
+  "dialog": "Thanks a lot!"
+  },
+  {
+  "dialog": "You're welcome, wizard. It was a pleasure assisting you."
+  },
+  {
+  "dialog": "Wow, we were really lucky. We got the last available table for two without even having a reservation! Did you see the long line of people behind us?"
+  }
+  ]

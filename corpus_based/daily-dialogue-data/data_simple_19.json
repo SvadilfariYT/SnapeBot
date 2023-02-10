@@ -1,0 +1,62 @@
+[
+  {
+  "dialog": "Greetings, Professor Black, how are you doing today?"
+  },
+  {
+  "dialog": "Just fine, thank you. And yourself?"
+  },
+  {
+  "dialog": "Very well, thank you for asking. It's great to see you again. I do apologize for not being able to meet you at the Floo Network, I was occupied with a matter of great importance yesterday. I hope your journey from Hogsmeade was pleasant."
+  },
+  {
+  "dialog": "Indeed it was, quite delightful. Thank you."
+  },
+  {
+  "dialog": "How is business treating you in the wizarding world?"
+  },
+  {
+  "dialog": "It's going well, but the market for dragon hide has been slow lately. However, the selling season is just around the corner, and I am hopeful that there will be more customers this year."
+  },
+  {
+  "dialog": "I look forward to expanding our business together. Although our past transactions have been satisfactory, there's always room for growth. Let's explore other areas of cooperation such as investment, spell casting, and magical assistance."
+  },
+  {
+  "dialog": "Pardon me, could you direct me to the lavatory?"
+  },
+  {
+  "dialog": "I apologize, but the facilities are currently occupied. The restrooms are located at the back of the shop."
+  },
+  {
+  "dialog": "Ah, the perils of public restrooms. Thank you for your assistance, miss."
+  },
+  {
+  "dialog": "You're welcome, have a great day."
+  },
+  {
+  "dialog": "Excuse me, do you happen to know where I can purchase some bubble wrap and send a parcel?"
+  },
+  {
+  "dialog": "Yes, you can buy the bubble wrap here, but you'll need to queue over here to send your package."
+  },
+  {
+  "dialog": "That line does seem quite long. How long do you estimate the wait to be?"
+  },
+  {
+  "dialog": "It takes about three minutes per person, so it should take about an hour to reach the front."
+  },
+  {
+  "dialog": "Can I purchase some postage stamps here as well?"
+  },
+  {
+  "dialog": "Of course! How many would you like?"
+  },
+  {
+  "dialog": "I need thirty for my holiday cards."
+  },
+  {
+  "dialog": "Are they being sent abroad?"
+  },
+  {
+  "dialog": "Yes, twenty of them will be making their way to China and America."
+  }
+  ]

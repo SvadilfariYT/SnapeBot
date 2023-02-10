@@ -1,0 +1,62 @@
+[
+  {
+    "dialog": "How much does The Daily Prophet cost?"
+  },
+  {
+    "dialog": "It's nearly three Galleons now, and I've heard whispers that the price may be raised to four Galleons soon."
+  },
+  {
+    "dialog": "That seems quite steep. Who is their target audience?"
+  },
+  {
+    "dialog": "The Daily Prophet primarily caters to the wizarding middle class, though I fear that if the price rises too much, their circulation will drop significantly."
+  },
+  {
+    "dialog": "I'll wager that you'll still purchase it, though. You couldn't possibly be without your wizarding news and gossip!"
+  },
+  {
+    "dialog": "Ha! This is a rare occasion indeed, you've not haggled!"
+  },
+  {
+    "dialog": "Haggle? I wouldn't want to feel guilty for trying to save a few Sickles."
+  },
+  {
+    "dialog": "But you could have saved some money."
+  },
+  {
+    "dialog": "For what? A few sickles? No, it's not worth it. Plus, I'd happily pay more for access to the latest wizarding news and events."
+  },
+  {
+    "dialog": "For your information, there is a magical market nearby. But perhaps you're done shopping for the day..."
+  },
+  {
+    "dialog": "Ha! I've only just begun! Please take me there at once!"
+  },
+  {
+    "dialog": "Can you assist me in conducting a wizarding search?"
+  },
+  {
+    "dialog": "Of course. What would you like to find?"
+  },
+  {
+    "dialog": "I wish to learn more about the First Wizarding War."
+  },
+  {
+    "dialog": "Ah, might I ask for a bit more specificity? There are many records and accounts of that war."
+  },
+  {
+    "dialog": "Yes, I would like to know more about the Battle of Hogwarts."
+  },
+  {
+    "dialog": "Very well. You may use the Wizarding Wireless Network, simply type in 'Battle of Hogwarts.'"
+  },
+  {
+    "dialog": "My word, there are a multitude of results."
+  },
+  {
+    "dialog": "Here, try this one. It's a reliable source of information about the Battle of Hogwarts."
+  },
+  {
+    "dialog": "Thank you."
+  }
+]

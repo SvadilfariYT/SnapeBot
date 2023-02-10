@@ -1,0 +1,62 @@
+[
+  {
+    "dialog": "I would like to partake in an American-style breakfast, including fried eggs with the yolks facing upwards."
+  },
+  {
+    "dialog": "And what type of juice would you prefer, good sir?"
+  },
+  {
+    "dialog": "A juice to accompany breakfast and a black coffee, brewed extra strong, if you please."
+  },
+  {
+    "dialog": "Very good, sir. An American breakfast with sunny-side-up fried eggs, breakfast juice, and a strong black coffee. Is that correct, sir?"
+  },
+  {
+    "dialog": "Indeed, that is correct."
+  },
+  {
+    "dialog": "Would there be anything else, sir?"
+  },
+  {
+    "dialog": "No, that shall be all. Thank you."
+  },
+  {
+    "dialog": "Good morning, sir. Your requested breakfast has arrived."
+  },
+  {
+    "dialog": "Just place it on the table, if you would be so kind."
+  },
+  {
+    "dialog": "Is there anything else I can bring you, sir?"
+  },
+  {
+    "dialog": "No, thank you. Ah, wait, could I trouble you for some juice to stock the minibar?"
+  },
+  {
+    "dialog": "Certainly, sir. Which type of juice would you prefer: tomato or orange?"
+  },
+  {
+    "dialog": "Tomato or orange juice, if you please."
+  },
+  {
+    "dialog": "At once, sir. Could you sign this bill first, please? Thank you, sir."
+  },
+  {
+    "dialog": "Shall we leave a gratuity? This service has been quite excellent."
+  },
+  {
+    "dialog": "I believe so. How much is considered standard?"
+  },
+  {
+    "dialog": "How about a ten percent tip? That would come to around six galleons."
+  },
+  {
+    "dialog": "That seems fair and reasonable."
+  },
+  {
+    "dialog": "When does the train for Tibet depart, may I ask?"
+  },
+  {
+    "dialog": "It shall depart at three in the afternoon, good sir or madam."
+  }
+]

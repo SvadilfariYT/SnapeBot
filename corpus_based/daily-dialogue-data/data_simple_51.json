@@ -1,0 +1,62 @@
+[
+  {
+    "dialog": "Pray tell, is it true that its moniker is linked to someone?"
+  },
+  {
+    "dialog": "Indeed, the towel bears the name of its creator, Gustave Eiffel."
+  },
+  {
+    "dialog": "Greetings! Trans Pacific Airlines, how may I be of assistance?"
+  },
+  {
+    "dialog": "I'm ringing to cancel my reservation for the Trans Pacific Flight 8 on July 19th from Taipei to Minneapolis. Might I change it to the same flight, but on August 2nd instead of the 19th?"
+  },
+  {
+    "dialog": "May I have your name, if you please?"
+  },
+  {
+    "dialog": "I am Judy Wang."
+  },
+  {
+    "dialog": "Might you spell your name for me, dear?"
+  },
+  {
+    "dialog": "My given name is spelled J-U-D-Y, and my surname is W-A-N-G."
+  },
+  {
+    "dialog": "Please be advised that this ticket incurs a fee of 75 dollars for any alterations or cancellations."
+  },
+  {
+    "dialog": "Very well. Where should I go to pay this fee?"
+  },
+  {
+    "dialog": "At the airport. All right, Miss Wang, your Flight 8 on July 19th from Taipei to Minneapolis has been cancelled. Your new reservation is for the Trans Pacific Flight 8 from Taipei to Minneapolis at 9:30 a.m. on August 2nd."
+  },
+  {
+    "dialog": "That would be 1POJ7403."
+  },
+  {
+    "dialog": "Correct, it is."
+  },
+  {
+    "dialog": "Many thanks!"
+  },
+  {
+    "dialog": "Is there anything else I can assist you with?"
+  },
+  {
+    "dialog": "No, thank you. I am all set. Farewell."
+  },
+  {
+    "dialog": "Is this the supplies department?"
+  },
+  {
+    "dialog": "Indeed, it is. How may I be of service?"
+  },
+  {
+    "dialog": "This is Rachel from Human Resources. I require two boxes of company letterhead, a box of ballpoint pens, and a box of envelopes."
+  },
+  {
+    "dialog": "Very well. Not a problem. May I have your extension number?"
+  }
+]
