@@ -21,11 +21,11 @@ if __name__ == '__main__':
         chatbot = Chatbot(respond, "SnapeBot")
 
     else:
-        print(Fore.GREEN + "Alright. You may speak now!" + Style.RESET_ALL)
+        print(Fore.GREEN + "Do you want to talk about some wizardry stuff with me, wizard? Just tell me, what you want to chat about with me!" + Style.RESET_ALL)
         user_input = input(">>> ").lower().strip()
         while "exit" not in user_input.lower():
             
             answer = get_response(user_input)       
 
-            print(Fore.GREEN + answer + Style.RESET_ALL)
+            print(answer + Style.RESET_ALL)
             user_input = input(">>> ").lower().strip()

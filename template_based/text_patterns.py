@@ -1,4 +1,11 @@
 patterns = [
+    [r'.*I.*to talk.*about (.*)',
+     ["Indeed i would like to talk about {0}.",
+      "Ok, I'm listening.",
+      "How come?",
+      "Do you think {0} could have the potential to change something in the muggle world?",
+      "Why do you want to talk about {0}?"]],
+
     [r'I need (.*)',
      ["Why do you need {0}?",
       "Would it really help you to get {0}?",
