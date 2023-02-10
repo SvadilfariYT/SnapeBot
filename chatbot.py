@@ -1,4 +1,5 @@
 from corpus_based.corpus_based import corpusbased_answer
+from corpus_based.corpus_based import corpusbased_answer_2
 from template_based.template_based import templatebased_answer
 
 from colorama import Fore, Style
@@ -12,13 +13,17 @@ def get_response(input: str):
     # Check if already asked
     answer = get_modified_answer(input)
 
+    # Corpus-Based-Matching (Tfidf)
+    if(answer == None):
+        answer = corpusbased_answer(input, 0.6)
+
+    # Corpus-Based-Matching 2 (Tfidf)
+    if(answer == None):
+        answer = corpusbased_answer_2(input, 0.6)
+
     # Template-Based-Pattern-Matching
     if(answer == None):
         answer = templatebased_answer(input)
-
-    # Corpus-Based-Matching (Tfidf)
-    if(answer == None):
-        answer = corpusbased_answer(input, 0.5)
 
     # Standard/Fallback Answer
     if(answer == None):
