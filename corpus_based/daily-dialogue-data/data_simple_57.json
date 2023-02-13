@@ -1,0 +1,62 @@
+[
+  {
+    "dialog": "Greetings! It's a pleasure to make your acquaintance, Diane."
+  },
+  {
+    "dialog": "Greetings, Jack. It's lovely to meet you as well."
+  },
+  {
+    "dialog": "I presume you've had a change of heart regarding our proposal, Diane."
+  },
+  {
+    "dialog": "Indeed. After much consideration, I must admit the quality of your air conditioners is most impressive. The only issue at hand is the cost."
+  },
+  {
+    "dialog": "It doesn't surprise me, many customers share your sentiment. Might you have any suggestions? Our sales associate informed your secretary that the price may be negotiable."
+  },
+  {
+    "dialog": "That's why I made the journey to your office today. Our suggestion is for the model WE-506 to be priced at $590, as similar air conditioners from other companies are typically priced between $579 and $649."
+  },
+  {
+    "dialog": "That is true, but if you understand that quality is the most important aspect of a product, you'll agree that $679 is not excessive, especially with a 10% discount we're offering."
+  },
+  {
+    "dialog": "I can see your point. So that would be $611 per set. However, that is still higher than the market price. Is there any way to lower the cost, Jack?"
+  },
+  {
+    "dialog": "Well, given the quantity of your order, we could reduce the price further to $600. That's the lowest we can go. What do you think of that?"
+  },
+  {
+    "dialog": "Agreed. $600 per set it is then."
+  },
+  {
+    "dialog": "Very good. Many thanks."
+  },
+  {
+    "dialog": "Have we met before?"
+  },
+  {
+    "dialog": "I'm not certain. You look familiar, though."
+  },
+  {
+    "dialog": "Are you Mr. Stevenson, by any chance?"
+  },
+  {
+    "dialog": "Yes, that's correct. And you are Mr. Jones, if I'm not mistaken."
+  },
+  {
+    "dialog": "And with that, we've covered all the basic information about our company. I trust you have a good understanding of who we are."
+  },
+  {
+    "dialog": "Indeed, I have a general knowledge of your company."
+  },
+  {
+    "dialog": "Once we have the final results, we shall send word to you."
+  },
+  {
+    "dialog": "And when can I expect a response at the latest?"
+  },
+  {
+    "dialog": "Should you pass the interview, the personnel department will inform you within two fortnights."
+  }
+]

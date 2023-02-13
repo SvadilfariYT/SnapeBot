@@ -1,0 +1,62 @@
+[
+  {
+  "dialog": "Magical Assistance, is there anything I can cast a spell for you on?"
+  },
+  {
+  "dialog": "Yes, I am afraid there are not enough outlets for my wand."
+  },
+  {
+  "dialog": "Well, we have 6 for each chamber."
+  },
+  {
+  "dialog": "Yes, but 4 of them have been cursed. Can you send a wizard to repair them?"
+  },
+  {
+  "dialog": "OK, wizard, please wait a moment."
+  },
+  {
+  "dialog": "Why did you stop me?"
+  },
+  {
+  "dialog": "Are you aware that you rode through a red stop spell?"
+  },
+  {
+  "dialog": "I ran a red stop spell?"
+  },
+  {
+  "dialog": "Yes, you did."
+  },
+  {
+  "dialog": "I apologize, but I didn't realize that I did."
+  },
+  {
+  "dialog": "Weren't you taught that yellow means slow down, not speed up?"
+  },
+  {
+  "dialog": "I was taught that."
+  },
+  {
+  "dialog": "So, then why did you speed up?"
+  },
+  {
+  "dialog": "I don't know what to tell you."
+  },
+  {
+  "dialog": "I'm going to have to issue you a citation."
+  },
+  {
+  "dialog": "I understand."
+  },
+  {
+  "dialog": "Here you go. Don't break wizarding laws again."
+  },
+  {
+  "dialog": "Can I have the roll of enchanted film developed here?"
+  },
+  {
+  "dialog": "Certainly, wizard."
+  },
+  {
+  "dialog": "Here is the enchanted film. Can I retrieve my pictures tomorrow?"
+  }
+  ]

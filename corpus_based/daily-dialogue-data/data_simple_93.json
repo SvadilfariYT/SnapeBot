@@ -1,0 +1,62 @@
+[
+  {
+    "dialog": "Greetings, I am Monica. I have an appointment with your HR manager."
+  },
+  {
+    "dialog": "One moment, if you please. I shall make a call to the HR office. Yes, they confirm your appointment. Please come in. The HR department is located on the 3rd floor, room 3106. You may take the right elevator, as the left one is undergoing maintenance today."
+  },
+  {
+    "dialog": "Many thanks."
+  },
+  {
+    "dialog": "You're quite welcome."
+  },
+  {
+    "dialog": "When shall we expect the finished product from you?"
+  },
+  {
+    "dialog": "We anticipate having it completed by the end of next week."
+  },
+  {
+    "dialog": "Fantastic! That will be ahead of schedule. Well done!"
+  },
+  {
+    "dialog": "Indeed, as the saying goes, we strive to exceed expectations."
+  },
+  {
+    "dialog": "Do you happen to have any cheaper alternatives?"
+  },
+  {
+    "dialog": "Yes, we have a few options on special sale at present."
+  },
+  {
+    "dialog": "That's much more reasonable. I'll take this one, then."
+  },
+  {
+    "dialog": "Good morning, how may I assist you today?"
+  },
+  {
+    "dialog": "I am searching for a pair of earrings to give to my wife as an anniversary gift."
+  },
+  {
+    "dialog": "You have come to the correct establishment. We have a magnificent array of earrings for you to select from."
+  },
+  {
+    "dialog": "I noticed a pair of earrings in your window display. Might I have a closer look?"
+  },
+  {
+    "dialog": "Do you refer to the dazzling pearl earrings?"
+  },
+  {
+    "dialog": "Indeed, how much are they?"
+  },
+  {
+    "dialog": "They are priced at three thousand yuan."
+  },
+  {
+    "dialog": "What is the setting made of?"
+  },
+  {
+    "dialog": "The setting, sir, is crafted from a unique platinum alloy, ensuring its luster will never fade."
+  }
+]

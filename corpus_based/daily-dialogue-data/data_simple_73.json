@@ -1,0 +1,59 @@
+[
+  {
+    "dialog": "Greetings, good Madam, may I assist you in finding something?"
+  },
+  {
+    "dialog": "Indeed, I am searching for a camera to purchase."
+  },
+  {
+    "dialog": "We have a vast array of choices. Do you have a preference between a point-and-shoot or a more sophisticated one? Might I inquire if you're purchasing this for yourself or someone else?"
+  },
+  {
+    "dialog": "In truth, I am seeking a camera for my husband."
+  },
+  {
+    "dialog": "Ah, in that case, I would recommend a fine entry-level digital SLR."
+  },
+  {
+    "dialog": "Might I have a glance at the options available, good Sir?"
+  },
+  {
+    "dialog": "Of course, follow me. This here is the..."
+  },
+  {
+    "dialog": "The Canon Eos. It is adequate, however, I am in search of something with improved performance in low light, a finer display panel, and a longer battery life."
+  },
+  {
+    "dialog": "Oh, hm, the Nikon D60 is a sound choice."
+  },
+  {
+    "dialog": "Yes, but what lens is included in this kit? I do not desire a cumbersome telephoto lens."
+  },
+  {
+    "dialog": "Oh, let's see, it appears to come with an 18-55 mm lens. A standard option that should suffice. After all, my husband will not be stalking celebrities or anything of the sort!"
+  },
+  {
+    "dialog": "So, um, might I tempt you with any accessories...?"
+  },
+  {
+    "dialog": "Accessories? Do you have polarizing filters available?"
+  },
+  {
+    "dialog": "Polarizing filters? Let me see... I am afraid we are currently out of stock, good Madam."
+  },
+  {
+    "dialog": "Nonsense! There are some right here!"
+  },
+  {
+    "dialog": "Oh my! It seems we have polarizing filters available after all!"
+  },
+  {
+    "dialog": "Many thanks for your assistance, Ralph!"
+  },
+  {
+    "dialog": "It was my pleasure, good Madam."
+  },
+  {
+    "dialog": "May I be of service to you, good Madam?"
+  }
+]

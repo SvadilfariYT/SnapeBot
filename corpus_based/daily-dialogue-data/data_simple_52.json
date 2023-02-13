@@ -1,0 +1,62 @@
+[
+  {
+    "dialog": "John, may I introduce you to Charles Brown, our new manager at the airport."
+  },
+  {
+    "dialog": "Of course, how will I know him?"
+  },
+  {
+    "dialog": "He's short, sturdy, and has light blonde hair."
+  },
+  {
+    "dialog": "Anything else I should look for?"
+  },
+  {
+    "dialog": "If my memory serves me well, he has a mustache and fair skin."
+  },
+  {
+    "dialog": "How old is he?"
+  },
+  {
+    "dialog": "He's in his late thirties."
+  },
+  {
+    "dialog": "I should have no trouble spotting him then. What time is his flight due?"
+  },
+  {
+    "dialog": "It arrives at 2:30pm."
+  },
+  {
+    "dialog": "What can I get for you today?"
+  },
+  {
+    "dialog": "I'd like to have a hamburger, please."
+  },
+  {
+    "dialog": "Would you like cheese on that?"
+  },
+  {
+    "dialog": "No, thank you."
+  },
+  {
+    "dialog": "Would you like a drink as well?"
+  },
+  {
+    "dialog": "Yes, a soda would be great."
+  },
+  {
+    "dialog": "What kind of soda would you like?"
+  },
+  {
+    "dialog": "A Sprite would be fine, thank you."
+  },
+  {
+    "dialog": "Of course, no trouble at all."
+  },
+  {
+    "dialog": "I would also like a bag of chips, please."
+  },
+  {
+    "dialog": "Will that be all for you today?"
+  }
+]

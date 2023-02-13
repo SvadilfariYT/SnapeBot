@@ -1,0 +1,62 @@
+[
+  {
+    "dialog": "Good day, kind sir. How may I be of assistance?"
+  },
+  {
+    "dialog": "Good day to you as well. I am here to visit with Rochelle Davis, the Head of the Department of Human Resources."
+  },
+  {
+    "dialog": "Do you have a prior appointment with her?"
+  },
+  {
+    "dialog": "Indeed I do. I am scheduled to meet with her at half past ten this morn."
+  },
+  {
+    "dialog": "Very well. May I have your name, please?"
+  },
+  {
+    "dialog": "Bruce Green, at your service."
+  },
+  {
+    "dialog": "Thank you. Please be seated, she will attend to you promptly."
+  },
+  {
+    "dialog": "My gratitude, kind sir."
+  },
+  {
+    "dialog": "Excuse me, good sir. Might I inquire as to the time?"
+  },
+  {
+    "dialog": "Ah, it is near the hour of eleven and twenty."
+  },
+  {
+    "dialog": "Thank you for your kindness."
+  },
+  {
+    "dialog": "You are most welcome. May I observe that the rain is coming down quite heavily today?"
+  },
+  {
+    "dialog": "Yes, I was in a hurry and alas, I forgot my umbrella."
+  },
+  {
+    "dialog": "Fear not, I have one. Would you care to share it as we walk? Which way are you headed?"
+  },
+  {
+    "dialog": "That is most generous of you. I am bound for the Garden Hotel."
+  },
+  {
+    "dialog": "As it happens, I too am headed that way. Shall we make the journey together?"
+  },
+  {
+    "dialog": "Indeed, I would be delighted to join you."
+  },
+  {
+    "dialog": "I am most intrigued by the art of Chinese antiques."
+  },
+  {
+    "dialog": "We have a magnificent collection of Chinese antiques, including an array of landscape paintings, portraits, and the most magnificent flower and bird paintings you have ever seen."
+  },
+  {
+    "dialog": "I would like to purchase a flower and bird painting, if I may."
+  }
+]

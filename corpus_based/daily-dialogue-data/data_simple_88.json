@@ -1,0 +1,62 @@
+[
+  {
+    "dialog": "The apothecary said that even if I consume the proper potions, I may still not receive the necessary vitamins."
+  },
+  {
+    "dialog": "Have you tested this yourself, or do you simply trust the apothecary's words?"
+  },
+  {
+    "dialog": "It is much simpler to drink this tonic once a day, instead of constantly imbibing fruits and vegetables."
+  },
+  {
+    "dialog": "While it may be more expeditious, I'm not so sure about easier. This tonic looks quite unappetizing."
+  },
+  {
+    "dialog": "Billy, tardiness strikes again."
+  },
+  {
+    "dialog": "My apologies for my lateness. I overslept. Is the Headmaster in today?"
+  },
+  {
+    "dialog": "Indeed, he is within his office at this moment."
+  },
+  {
+    "dialog": "Oh, I hope he did not observe my arrival."
+  },
+  {
+    "dialog": "Do not take any risks. It would be best if you faced the Headmaster and offered your apologies. He is already displeased with your previous two incidents of tardiness. Any further instances may result in your expulsion."
+  },
+  {
+    "dialog": "You are quite correct. It shall not happen again. Do you truly believe the Headmaster would expel me?"
+  },
+  {
+    "dialog": "I fear he might. You should go to his office without delay."
+  },
+  {
+    "dialog": "You are likely correct. I shall go immediately and offer my apologies. It can be quite a challenge to navigate the streets of Hogsmeade, especially during rush hour."
+  },
+  {
+    "dialog": "Good fortune be with you!"
+  },
+  {
+    "dialog": "What is the cost of the quarters?"
+  },
+  {
+    "dialog": "The monthly rent for the quarters is 1500 galleons."
+  },
+  {
+    "dialog": "And what is the deposit?"
+  },
+  {
+    "dialog": "The deposit is a fee of 500 galleons."
+  },
+  {
+    "dialog": "Is there anything else, aside from the credit ranking and debt-to-asset ratio?"
+  },
+  {
+    "dialog": "One must also take into account the balance of net liabilities. It must not surpass the net assets, and there can be no recorded losses in the business in the past two years."
+  },
+  {
+    "dialog": "Understood. This should not present an issue."
+  }
+]
