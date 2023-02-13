@@ -28,4 +28,5 @@ if __name__ == '__main__':
             answer = get_response(user_input)       
 
             print(answer + Style.RESET_ALL)
+            print("________________________________________________")
             user_input = input(">>> ").lower().strip()

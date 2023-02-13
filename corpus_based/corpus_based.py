@@ -51,12 +51,13 @@ def corpusbased_answer(user_input : str, required_similarity : float):
 
     question = data.loc[idx, "questions"] 
     response = data.loc[idx, "responses"] 
+    similarity = similarities[0][idx]
 
     response = replace_entities(user_input, response)
 
-    print(Fore.RED + "DEBUG Harry: Question: " + question + "\n Answer: " + response + "\n Similarity: " + str(similarities[0][idx]) + Style.RESET_ALL) #Debugging
+    print(Fore.RED + "DEBUG Harry: Question: " + question + "\n Answer: " + response + "\n Similarity: " + str(similarity) + Style.RESET_ALL) #Debugging
 
-    if(similarities[0][idx] < required_similarity):
+    if(similarity < required_similarity):
         return None
 
     return response
@@ -70,12 +71,13 @@ def corpusbased_answer_2(user_input : str, required_similarity : float):
 
     question = data_2.loc[idx, "questions"] 
     response = data_2.loc[idx, "responses"] 
+    similarity = similarities[0][idx]
 
     response = replace_entities(user_input, response)
 
-    print(Fore.RED + "DEBUG GPT: Question: " + question + "\n Answer: " + response + "\n Similarity: " + str(similarities[0][idx]) + Style.RESET_ALL) #Debugging
+    print(Fore.RED + "DEBUG GPT: Question: " + question + "\n Answer: " + response + "\n Similarity: " + str(similarity) + Style.RESET_ALL) #Debugging
 
-    if(similarities[0][idx] < required_similarity):
+    if(similarity < required_similarity):
         return None
 
     return response
@@ -84,22 +86,28 @@ def replace_entities(input : str, output : str):
     input_nlp = nlp(input)
     output_nlp = nlp(output)
 
-    
-    
+
     person = "wizard"
 
     for ent in input_nlp.ents:
         if ent.label_ == "PERSON":
             person = ent
-        elif ent.label_ == "":
-            person = ""
+        elif ent.label_ == "ORG":
+            person = "Bürgerbüro"
 
     for ent in output_nlp.ents:
-        if ent.label_ == "PERSON":
-            output = re.sub(ent.text, person, output)
+        output = replace_entity(output, ent, person, "PERSON")
 
-    for character in characters:
-        if character in output:
-            output = re.sub(character, person, output)
+    output = replace_entity_custom(output, characters, person)
 
     return output
+
+def replace_entity(output : str, ent, new_ent, label: str):
+    if ent.label_ == label:
+            output = re.sub(ent.text, new_ent, output)
+    return output
+
+def replace_entity_custom(output, list, entity):
+    for element in list:
+        if element in output:
+            output = re.sub(element, entity, output)
