@@ -14,7 +14,7 @@ def respond(message: Message, conversation: List[Message]):
 # MAIN METHOD
 if __name__ == '__main__':
     print(Fore.RED + "Do you want to establish a connection to other chatbots?" + Style.RESET_ALL + " Answer with 'yes' for yes and 'no' for no...")
-    user_input = input(">>> ").lower().strip()
+    user_input = input(">>> ").strip()
         
     
     if(user_input == "yes"):
@@ -22,11 +22,11 @@ if __name__ == '__main__':
 
     else:
         print(Fore.GREEN + "Do you want to talk about some wizardry stuff with me, wizard? Just tell me, what you want to chat about with me!" + Style.RESET_ALL)
-        user_input = input(">>> ").lower().strip()
+        user_input = input(">>> ").strip()
         while "exit" not in user_input.lower():
             
             answer = get_response(user_input)       
 
             print(answer + Style.RESET_ALL)
             print("________________________________________________")
-            user_input = input(">>> ").lower().strip()
+            user_input = input(">>> ").strip()

@@ -1,14 +1,13 @@
 from sklearn.feature_extraction.text import TfidfTransformer, TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
+from entity_recognition import replace_entities
 import yaml
 import pandas as pd 
 import numpy as np
 import pickle
 from colorama import Fore, Style
 import spacy
-import re
 
-characters = ["Snape", "Hagrid", "Dumbledore", "Draco"]
 
 nlp = spacy.load("en_core_web_lg")
 
@@ -82,32 +81,3 @@ def corpusbased_answer_2(user_input : str, required_similarity : float):
 
     return response
 
-def replace_entities(input : str, output : str):
-    input_nlp = nlp(input)
-    output_nlp = nlp(output)
-
-
-    person = "wizard"
-
-    for ent in input_nlp.ents:
-        if ent.label_ == "PERSON":
-            person = ent
-        elif ent.label_ == "ORG":
-            person = "Bürgerbüro"
-
-    for ent in output_nlp.ents:
-        output = replace_entity(output, ent, person, "PERSON")
-
-    output = replace_entity_custom(output, characters, person)
-
-    return output
-
-def replace_entity(output : str, ent, new_ent, label: str):
-    if ent.label_ == label:
-            output = re.sub(ent.text, new_ent, output)
-    return output
-
-def replace_entity_custom(output, list, entity):
-    for element in list:
-        if element in output:
-            output = re.sub(element, entity, output)

@@ -1,6 +1,8 @@
 from corpus_based.corpus_based import corpusbased_answer
 from corpus_based.corpus_based import corpusbased_answer_2
 from template_based.template_based import templatebased_answer
+from template_based.template_based import special_patterns
+
 
 # load language model
 #nlp = spacy.load("en_core_web_lg")
@@ -8,9 +10,12 @@ from template_based.template_based import templatebased_answer
 memory = {'question 1' : 'answer1'}
 
 def get_response(input: str):
+    
+    answer = special_patterns(input)
+
     # Check if already asked
-    answer = get_modified_answer(input)
-    if(answer != None):
+    if(answer == None):
+        answer = get_modified_answer(input)
         print("Debug:  same question")
 
     # Corpus-Based-Matching (Tfidf)
