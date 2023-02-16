@@ -2,9 +2,10 @@ from chatbotsclient.chatbot import Chatbot
 from chatbotsclient.message import Message
 from typing import List
 from chatbot import get_response
-from chatbot import get_greeting
-from chatbot import get_farewell
+from chatbot import get_answer_of_type
 from colorama import Fore, Style
+
+import phrases
 
 def compute(input: str, conversation: List[Message]):
     return get_response(input)
@@ -23,7 +24,7 @@ if __name__ == '__main__':
         chatbot = Chatbot(respond, "SnapeBot")
 
     else:
-        print(Fore.GREEN + get_greeting() + Style.RESET_ALL)
+        print(Fore.GREEN + get_answer_of_type(phrases.greetings) + Style.RESET_ALL)
         user_input = input(">>> ").strip()
         while "exit" not in user_input.lower():
             
@@ -33,4 +34,4 @@ if __name__ == '__main__':
             print("________________________________________________")
             user_input = input(">>> ").strip()
 
-        print(get_farewell())
+        print(get_answer_of_type(phrases.farewells))

@@ -12,14 +12,8 @@ import phrases
 
 memory = {'question 1' : 'answer1'}
 
-def get_greeting():
-    return random.choice(phrases.greetings)
-
-def get_fallback():
-    return random.choice(phrases.errors)
-
-def get_farewell():
-    return random.choice(phrases.farewell)
+def get_answer_of_type(phrases):
+    return random.choice(phrases)
 
 def get_response(input: str):
     
@@ -29,6 +23,12 @@ def get_response(input: str):
     if(answer == None):
         answer = get_modified_answer(input)
         print("Debug:  same question")
+
+    # Template-Based-Pattern-Matching
+    if(answer == None):
+        answer = templatebased_answer(input)
+        if(answer != None):
+            print("Debug:  pattern matching")
 
     # Corpus-Based-Matching (Tfidf)
     if(answer == None):
@@ -42,15 +42,10 @@ def get_response(input: str):
         if(answer != None):
             print("Debug:  corpus based (GPT)")
 
-    # Template-Based-Pattern-Matching
-    if(answer == None):
-        answer = templatebased_answer(input)
-        if(answer != None):
-            print("Debug:  pattern matching")
 
     # Standard/Fallback Answer
     if(answer == None):
-        answer = get_fallback()
+        answer = get_answer_of_type(phrases.fallbacks)
         if(answer != None):
             print("Debug:  fallback")
 
@@ -62,5 +57,8 @@ def get_response(input: str):
 def get_modified_answer(input : str):
     # TODO check for similar input  instead of exact
     if (input in memory):
-        return "You have already asked me that"
+        if (input[-1] == '?'):
+            return get_answer_of_type(phrases.repetitions_questions)
+        else:
+            return get_answer_of_type(phrases.repetitions_statements)
     return None
