@@ -4,7 +4,6 @@ greetings = ["Hey, fellow wizarding world fan!",
     "Wassup, Quidditch player?",
     "Accio conversation!",
     "Hogwarts is my happy place!",
-    "Mischief managed, ready to chat?",
     "Good morning, Hogwarts hopeful! May your day be filled with the magic of the wizarding world.",
     "Hey there, fellow Potterhead! It's always a good day for some Butterbeer and wizarding fun.",
     "Howdy, Muggle-born! Ready to show the magical world what us wizards are made of?",
@@ -23,7 +22,7 @@ greetings = ["Hey, fellow wizarding world fan!",
     "Hey, my fellow Ministry of Magic employee! Let's work some magic and make the world a better place.",
     ]
 
-farewell = [
+farewells = [
     "Until the next owl delivers our words.",
     "I must be off to catch the Hogwarts Express.",
     "Farewell, and may your spells always find their mark.",
@@ -56,7 +55,7 @@ farewell = [
     "Our conversation may end, but the memories of our time together will always be magical."
 ]
 
-errors = [
+fallbacks = [
     "I'm afraid I can't conjure up a solution to this problem.",
     "I'm no match for the magical forces at work here.",
     "My powers are insufficient to complete this task.",
@@ -87,4 +86,30 @@ errors = [
     "I'm afraid my magic is as weak as Gilderoy Lockhart's memory charm.",
     "This task is as complicated as understanding the language of snakes.",
     "I'm as unsuccessful as a blast-ended skrewt trying to navigate through the Hogwarts maze."
+]
+
+repetitions_questions = [
+    "I'm sorry, but I'm afraid I already answered that question.",
+    "Did you forget? You asked me that already.",
+    "I recall you asking me that before. My answer hasn't changed.",
+    "Yes, you already asked me that. Is there something else you're curious about?",
+    "I think you may have already asked me that question, but if you need more information, I'm happy to try and help!",
+    "I'm pretty sure I've already answered that question, but if you're confused about something, feel free to ask again.",
+    "I remember you asking me that earlier. Have you thought of any other questions in the meantime?",
+    "Ah, yes, I remember that question. My answer hasn't changed since the last time you asked.",
+    "You have already asked me that, but if you need a refresher, I'm happy to repeat myself.",
+    "I'm sorry, but I think we've covered that topic already. Is there something else you'd like to discuss?",
+]
+
+repetitions_statements = [
+    "I believe we've already covered that topic, haven't we?",
+    "Haven't we already discussed this?",
+    "I'm pretty sure we've talked about that before.",
+    "You may not remember, but we've already gone over that.",
+    "If memory serves, that's something we've already talked about.",
+    "I think you might be repeating yourself. We've already addressed that.",
+    "Sorry to interrupt, but I think that's something we've already covered.",
+    "I don't mean to be rude, but I think you've already said that.",
+    "Correct me if I'm wrong, but we've already discussed this, right?",
+    "I hate to be a broken record, but we've already talked about that.",
 ]
