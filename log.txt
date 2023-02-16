@@ -1,0 +1,16 @@
+User: Let's see... I would estimate the fee to be around 800 galleons.
+WizardBot: Listen, wizard, I require your aid. I am still new to these lands.
+User: Let's see... I would estimate the fee to be around 800 galleons. Dominik.
+WizardBot: Listen, Dominik, I require your aid. I am still new to these lands.
+User: Hi, my name is Ana
+WizardBot: How old are you, Ana?
+User: Let's see... I would estimate the fee to be around 800 galleons.
+WizardBot: If memory serves, that's something we've already talked about.
+User: Let's see... I would estimate the fee to be around 800 galleons..
+WizardBot: Listen, Ana, I require your aid. I am still new to these lands.
+User: exit
+WizardBot: May the charms of friendship keep us connected, until we meet again.
+_______________________________________
+User: exit
+WizardBot: May the patronus that protects you always shine bright, until our paths cross once more.
+_______________________________________
