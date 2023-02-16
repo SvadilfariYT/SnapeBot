@@ -3,11 +3,23 @@ from corpus_based.corpus_based import corpusbased_answer_2
 from template_based.template_based import templatebased_answer
 from template_based.template_based import special_patterns
 
+import random
+
+import phrases
 
 # load language model
 #nlp = spacy.load("en_core_web_lg")
 
 memory = {'question 1' : 'answer1'}
+
+def get_greeting():
+    return random.choice(phrases.greetings)
+
+def get_fallback():
+    return random.choice(phrases.errors)
+
+def get_farewell():
+    return random.choice(phrases.farewell)
 
 def get_response(input: str):
     
@@ -38,7 +50,7 @@ def get_response(input: str):
 
     # Standard/Fallback Answer
     if(answer == None):
-        answer = "I don't know that. Sorry"
+        answer = get_fallback()
         if(answer != None):
             print("Debug:  fallback")
 
