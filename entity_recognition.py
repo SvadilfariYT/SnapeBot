@@ -7,25 +7,28 @@ nlp = spacy.load("en_core_web_lg")
 characters = ["Snape", "Hagrid", "Dumbledore", "Draco"]
 
 def replace_entities(input : str, output : str):
+    ## NEW
     output_nlp = nlp(output)
+    input_nlp = nlp(input)
 
-    person = memory.user_name
+    # Pre-Define entities
+    entities = {
+        "PERSON": memory.get_user_name(),
+        "ORG": "Hogwarts",
+        "MONEY": "galleons"
+    }
 
-    org = "Hogwarts"
+    # update pre-defined entities by entities in input
+    for input_ent in input_nlp.ents:
+        entities[input_ent.label_] = input_ent.text
 
-    # Input Entities
-    person_, org_ = get_entities(input)
-    
-    # Update if not None
-    person = person_ if person_ is not None else person
-    org = org_ if org_ is not None else org
-
-    # Output Entities
-    for ent in output_nlp.ents:
-        output = replace_entity(output, ent, person, "PERSON")
-        output = replace_entity(output, ent, org, "ORG")
-
-    output = replace_entity_custom(output, characters, person)
+    # Entity Recognition for entities in input
+    for output_ent in output_nlp.ents:
+        try:
+            ent = entities[output_ent.label_]
+            output = re.sub(output_ent.text, ent, output)
+        except KeyError:
+            pass
 
     return output
 

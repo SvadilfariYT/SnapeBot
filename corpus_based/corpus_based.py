@@ -52,9 +52,10 @@ def corpusbased_answer(user_input : str, required_similarity : float):
     response = data.loc[idx, "responses"] 
     similarity = similarities[0][idx]
 
+    print(Fore.RED + "DEBUG Harry: Question: " + question + "\n Answer: " + response + "\n Similarity: " + str(similarity) + Style.RESET_ALL) #Debugging
+    
     response = replace_entities(user_input, response)
 
-    print(Fore.RED + "DEBUG Harry: Question: " + question + "\n Answer: " + response + "\n Similarity: " + str(similarity) + Style.RESET_ALL) #Debugging
 
     if(similarity < required_similarity):
         return None
@@ -71,10 +72,10 @@ def corpusbased_answer_2(user_input : str, required_similarity : float):
     question = data_2.loc[idx, "questions"] 
     response = data_2.loc[idx, "responses"] 
     similarity = similarities[0][idx]
+    
+    print(Fore.RED + "DEBUG GPT: Question: " + question + "\n Answer: " + response + "\n Similarity: " + str(similarity) + Style.RESET_ALL) #Debugging
 
     response = replace_entities(user_input, response)
-
-    print(Fore.RED + "DEBUG GPT: Question: " + question + "\n Answer: " + response + "\n Similarity: " + str(similarity) + Style.RESET_ALL) #Debugging
 
     if(similarity < required_similarity):
         return None
