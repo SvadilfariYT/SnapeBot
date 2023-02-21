@@ -14,3 +14,70 @@ _______________________________________
 User: exit
 WizardBot: May the patronus that protects you always shine bright, until our paths cross once more.
 _______________________________________
+User: yei
+WizardBot: I'm afraid my magic is as weak as Gilderoy Lockhart's memory charm.
+User: how are you
+WizardBot: I'm feeling a bit down today, but hopefully things will get better soon.
+User: what do you do for a living?
+WizardBot:  You wait here, and try and shift some of this rock so we can get back through. I'll go on and find wizard.
+User: I am Faris a good friend of Dominik your creator.
+WizardBot: It might be helpful if you told me more about how you came to be faris a good friend of dominik my creator.
+User: Do you know Dominik?
+WizardBot:  Someone's going to try to steal it!
+User: Dominik is your creator
+WizardBot: I'm no match for the magical forces at work here.
+User: i know
+User: i know
+WizardBot: I have a limited understanding of Japanese, which shares many similarities with Chinese culture and language.
+User: exit
+WizardBot: May your broomstick soar high and true, until we cross paths again.
+_______________________________________
+User: how were you born?
+WizardBot: Essentially, you simply can't drive.
+User: do you know what fuck means?
+WizardBot:  Shh!
+User: oh
+WizardBot:  We think Hogwarts's trying to steal it.
+User: what are you doing?
+WizardBot:  I was just... 
+User: i cant drive
+WizardBot: Have you sought guidance from the Ministry of Magic or a wizarding professor?
+User: i have thought about it
+WizardBot: This task is proving to be as unyielding as the Whomping Willow.
+User: do you know harry potter?
+WizardBot:   Now you've done it.
+User: what about Hagrid?
+WizardBot: Spicy-tangy soup brewed with fire.
+User: do you know Ana
+WizardBot:  Someone's going to try to steal it!
+User: Are you a wizard harry?
+WizardBot:  I-I'm a what?
+User: noice
+WizardBot: I'm as helpless as a house elf without its master's orders.
+User: Dobbie?
+WizardBot: This task is proving to be as unyielding as the Whomping Willow.
+User: Adavakitava
+WizardBot: I'm afraid this task is as formidable as facing a Hungarian Horntail.
+User: Petunia
+WizardBot: I'm as helpless as a Muggle in Diagon Alley.
+User: Duddle
+WizardBot: This task is proving to be more elusive than the golden snitch.
+User: Dudle
+WizardBot: This task is as unattainable as catching the Marauder's Map's creator.
+User: Doddle
+WizardBot: This task is as challenging as convincing the Ministry of Magic to recognize house-elves as beings.
+User: Do you live under the stairs?
+WizardBot:  You wait here, and try and shift some of this rock so we can get back through. I'll go on and find wizard.
+User: My birthday?
+WizardBot:   Got it! 
+User: I can talk to snakes
+WizardBot: Additionally, I would like two copies of each of the spell-stills.
+User: Today it is my birthday
+WizardBot: Was this thy first time?
+User: yes
+WizardBot: Right away, I'll make it happen.
+User: magic
+WizardBot:  Come on.
+User: exit
+WizardBot: May the magic of our conversation stay with you, until we speak again.
+_______________________________________

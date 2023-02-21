@@ -24,10 +24,12 @@ def replace_entities(input : str, output : str):
 
     # Entity Recognition for entities in input
     for output_ent in output_nlp.ents:
-        ent = entities[output_ent.label_]
-        if (ent is not None):
+        try:
+            ent = entities[output_ent.label_]
             output = re.sub(output_ent.text, ent, output)
-                
+        except KeyError:
+            pass
+
     return output
 
 def get_entities(input : str):
