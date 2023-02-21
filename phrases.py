@@ -1,5 +1,4 @@
 greetings = ["Hey, fellow wizarding world fan!",
-    "What's up, Muggle?",
     "Alohomora, my friend!",
     "Wassup, Quidditch player?",
     "Accio conversation!",
