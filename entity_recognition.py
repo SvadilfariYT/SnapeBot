@@ -13,7 +13,7 @@ def replace_entities(input : str, output : str):
 
     # Pre-Define entities
     entities = {
-        "PERSON": memory.user_name,
+        "PERSON": memory.get_user_name(),
         "ORG": "Hogwarts",
         "MONEY": "galleons"
     }
