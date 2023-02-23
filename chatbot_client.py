@@ -29,7 +29,8 @@ if __name__ == '__main__':
         user_input = input(">>> ").strip()
 
         log.write('\nUser: ' + user_input)    
-        while "exit" not in user_input.lower():
+
+        while user_input.lower() not in phrases.exit_strings:
             
             answer = get_response(user_input)
             log.write('\nWizardBot: ' + answer)    

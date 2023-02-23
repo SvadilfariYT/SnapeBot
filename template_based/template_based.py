@@ -5,6 +5,7 @@ from special_patterns import introductions
 import re
 import random
 import memory
+from colorama import Fore, Style
 
 def templatebased_answer(user_input : str):
 # Test input string for all known text patterns in pychobabble
@@ -14,7 +15,9 @@ def templatebased_answer(user_input : str):
             # get random response out of list
             answer : str = random.choice(responses)
             # replace matched group and reflect | replace user_name
-            answer = answer.format(*[reflect(g.strip(",.?!")) for g in match.groups()], user_name=memory.get_user_name())
+            answer = answer.format(*[reflect(g.strip(",.?!")) for g in match.groups()], 
+                user_name=memory.get_user_name(), 
+                user_house=memory.get_user_house())
             
             return answer
     return None

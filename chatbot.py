@@ -9,6 +9,7 @@ import random
 import phrases
 
 import memory
+from colorama import Fore, Style
 
 # load language model
 #nlp = spacy.load("en_core_web_lg")
@@ -31,38 +32,29 @@ def get_response(input: str):
         user_house = choose_user_house()
         print("Hm... right. I see ... you're' a " + user_house + "!")
         memory.add_user_name(user_house)
+        memory.user_house = user_house
     
     answer = special_patterns(input)
 
     # Check if already asked
     if(answer == None):
         answer = get_modified_answer(input)
-        if(answer != None):
-            print("Debug:  same question")
 
     # Template-Based-Pattern-Matching
     if(answer == None):
         answer = templatebased_answer(input)
-        if(answer != None):
-            print("Debug:  pattern matching")
 
     # Corpus-Based-Matching (Tfidf)
     if(answer == None):
         answer = corpusbased_answer(input, 0.58)
-        if(answer != None):
-            print("Debug:  corpus based (Movie)")
 
     # Corpus-Based-Matching 2 (Tfidf)
     if(answer == None):
         answer = corpusbased_answer_2(input, 0.58)
-        if(answer != None):
-            print("Debug:  corpus based (GPT)")
 
     # Standard/Fallback Answer
     if(answer == None):
         answer = get_answer_of_type(phrases.fallbacks)
-        if(answer != None):
-            print("Debug:  fallback")
 
     # add to memory (history)
     repetition_memory[input] = answer

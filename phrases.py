@@ -112,3 +112,5 @@ repetitions_statements = [
     "Correct me if I'm wrong, but we've already discussed this, right?",
     "I hate to be a broken record, but we've already talked about that.",
 ]
+
+exit_strings = ["exit", "quit", "q", "bye", "goodbye", "good bye", "adios", "ciao", "farewell", "finish", "done", "end", "stop", "halt", "cancel", "abort", "close"]
