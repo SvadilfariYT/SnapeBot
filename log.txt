@@ -348,3 +348,17 @@ WizardBot: I have a limited understanding of Pure-bloods, which shares many simi
 User: exit
 WizardBot: Safe travels, and may the floo network guide you to your destination.
 _______________________________________
+User: Hello there
+WizardBot: Greetings!
+User: Good Bye.
+WizardBot: So, while we're waiting for our food, do you want to cast some spells to pass the time?
+User: Good Bye
+WizardBot: So, while we're waiting for our food, do you want to cast some spells to pass the time?
+User: exit
+WizardBot: May the charms of friendship keep us connected, until we meet again.
+_______________________________________
+User: Hey
+WizardBot: Welcome!
+User: Good Bye
+WizardBot: I must be off to catch the Hogwarts Express.
+_______________________________________
