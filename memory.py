@@ -2,7 +2,7 @@ import random
 
 user_names = ["wizard"]
 input_count = {"questions": 0, "imperatives": 0, "pleasantries": 0}
-user_house = ""
+user_house = "Muggle"
 
 def get_user_name():
     return random.choice(user_names)
