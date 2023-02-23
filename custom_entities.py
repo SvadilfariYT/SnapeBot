@@ -153,4 +153,11 @@ product_patterns = [
     {"label": "PRODUCT", "pattern": "Fizzing Whizbees"}
 ]
 
-entity_patterns = person_patterns + org_patterns + norp_patterns + loc_patterns + product_patterns
+money_patterns = [
+    {"label": "MONEY", "pattern": "galleons"},  
+    {"label": "MONEY", "pattern": "muggle money"},    
+    {"label": "MONEY", "pattern": "leprechaun gold"}  
+    {"label": "MONEY", "pattern": "chocolate frog cards"}
+]
+
+entity_patterns = person_patterns + org_patterns + norp_patterns + loc_patterns + product_patterns + money_patterns
