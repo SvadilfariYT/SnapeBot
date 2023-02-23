@@ -18,22 +18,33 @@ def replace_entities(input : str, output : str):
     # Pre-Define entities
     entities = {
         "PERSON": memory.get_user_name(),
-        "ORG": random.choice(custom_entities.org_patterns),
-        "LOC": random.choice(custom_entities.loc_patterns),
-        "NORP": random.choice(custom_entities.norp_patterns),
-        "PRODUCT": random.choice(custom_entities.product_patterns),
-        "MONEY": random.choice(custom_entities.money_patterns)
+        "ORG": custom_entities.org_patterns,
+        "LOC": custom_entities.loc_patterns,
+        "NORP": custom_entities.norp_patterns,
+        "PRODUCT": custom_entities.product_patterns,
+        "MONEY": custom_entities.money_patterns
     }
 
     # update pre-defined entities by entities in input
     for input_ent in input_nlp.ents:
         entities[input_ent.label_] = input_ent.text
 
+    replaced_ents = {} # list that includes all already replaced ents with their replacement
     # Entity Recognition for entities in input
     for output_ent in output_nlp.ents:
         try:
-            ent = entities[output_ent.label_]
-            output = re.sub(output_ent.text, ent, output)
+            if output_ent.text in replaced_ents:
+                # If this entity text has already been replaced, use the existing replacement string
+                replacement = replaced_ents[output_ent.text]
+            else:
+                # If this is a new entity text, generate a new replacement string and add it to the dictionary
+                replacement_ent = random.choice(entities[output_ent.label_]) #get random of entities
+                entities[output_ent.label_].remove(replacement_ent) # remove from entities
+                replacement = replacement_ent["pattern"]
+                replaced_ents[output_ent.text] = replacement # save the replacement in replaced_ents
+            
+            # Replace the entity text with the replacement string
+            output = re.sub(output_ent.text, replacement, output)
         except KeyError:
             pass
 
