@@ -156,7 +156,7 @@ product_patterns = [
 money_patterns = [
     {"label": "MONEY", "pattern": "galleons"},  
     {"label": "MONEY", "pattern": "muggle money"},    
-    {"label": "MONEY", "pattern": "leprechaun gold"}  
+    {"label": "MONEY", "pattern": "leprechaun gold"},
     {"label": "MONEY", "pattern": "chocolate frog cards"}
 ]
 
