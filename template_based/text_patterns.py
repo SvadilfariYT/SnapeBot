@@ -1,5 +1,5 @@
 patterns = [
-    [r'Hi|Hey|Hello|Good Morning|Good Evening|Good Night|Good Afternoon\!?',
+    [r'\b(Hi|Hey|Hello|Good Morning|Good Evening|Good Night|Good Afternoon)\b\!?',
      ["Hello there, {user_name}!",
       "Greetings!",
       "Welcome!",
