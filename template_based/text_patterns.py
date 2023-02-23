@@ -3,7 +3,7 @@ patterns = [
      ["Hello there!",
       "Greetings!",
       "Welcome!",
-      "Nice to see you!",
+      "Nice to see you {user_name}!",
       "What's up, Muggle?"]],
 
     [r'.*I.*to talk.*about (.*)',

@@ -221,3 +221,44 @@ WizardBot: That's good news! It's always encouraging to see young witches and wi
 User: exit
 WizardBot: Our words may end, but the magic of our connection lives on, until we meet again.
 _______________________________________
+User: My name is Dominik
+WizardBot: Dominik, I presume? I've been looking forward to meeting you. You have a reputation for [insert something related to the wizarding world here].
+User: Hello
+WizardBot:  Hey, Hogwarts.
+User: Hey
+WizardBot: I'm as unsuccessful as a blast-ended skrewt trying to navigate through the Hogwarts maze.
+User: Hi
+WizardBot: This task is as complicated as understanding the language of snakes.
+User: Good evening
+WizardBot: Yes . I bought this sheet here yesterday .
+User: I want to talk about you.
+WizardBot: It appears this task is as impossible as discovering the location of the Room of Requirement without knowing the secret.
+User: I need this
+WizardBot: I'm as powerless as a wand without its wizard.
+User: What's your name?
+WizardBot: I am wizard.
+User: exit
+WizardBot: May the magic of our conversation stay with you, until we speak again.
+_______________________________________
+User: My name is Dominik
+WizardBot: Dominik! That's a wonderful name. I knew a Dominik once - they were quite talented at [insert something related to magic here].
+User: Hi
+WizardBot: Hello there!
+User: Hey
+WizardBot: Welcome!
+User: Good evening
+User: My name is Dominik
+WizardBot: Dominik, Dominik, where have I heard that name before? Ah yes, [insert something related to the wizarding world here].
+User: Hey
+User: My name is Dominik
+WizardBot: Welcome to Hogwarts, Dominik. I hope you enjoy your stay. Do you have any questions about the school or the wizarding world?
+User: Hey
+User: My name is Dominik
+WizardBot: Greetings, Dominik. May I ask what brings you to Hogwarts?
+User: Hi
+WizardBot: Welcome!
+User: Hey
+WizardBot: Nice to see you wizard!
+User: exit
+WizardBot: May the patronus that protects you always shine bright, until our paths cross once more.
+_______________________________________
