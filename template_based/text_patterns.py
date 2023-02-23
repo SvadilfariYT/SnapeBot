@@ -101,7 +101,7 @@ patterns = [
       "I'm just glad I could be of service.",
       "Anytime! Let me know if you need anything else."]],
 
-    [r'Can you tell me (more )?about (.*)\??',
+    [r'Can you tell me more about (.*)\??',
      ["Of course, I'd be delighted to tell you all about {0}!",
       "Absolutely, what specific information would you like to learn about {0}?",
       "I'd be happy to share my knowledge of {0} with you.",
