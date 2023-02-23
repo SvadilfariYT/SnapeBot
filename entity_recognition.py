@@ -3,6 +3,7 @@ from spacy.pipeline import EntityRuler
 import custom_entities
 import re
 import memory
+import random
 
 
 nlp = spacy.load("en_core_web_lg")
@@ -17,8 +18,11 @@ def replace_entities(input : str, output : str):
     # Pre-Define entities
     entities = {
         "PERSON": memory.get_user_name(),
-        "ORG": "Hogwarts",
-        "MONEY": "galleons"
+        "ORG": random.choice(custom_entities.org_patterns),
+        "LOC": random.choice(custom_entities.loc_patterns),
+        "NORP": random.choice(custom_entities.norp_patterns),
+        "PRODUCT": random.choice(custom_entities.product_patterns),
+        "MONEY": random.choice(custom_entities.money_patterns)
     }
 
     # update pre-defined entities by entities in input
