@@ -31,6 +31,7 @@ def get_response(input: str):
         user_house = choose_user_house()
         print("Hm... right. I see ... you're' a " + user_house + "!")
         memory.add_user_name(user_house)
+        memory.user_house = user_house
     
     answer = special_patterns(input)
 
