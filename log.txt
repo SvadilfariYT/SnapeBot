@@ -81,3 +81,184 @@ WizardBot:  Come on.
 User: exit
 WizardBot: May the magic of our conversation stay with you, until we speak again.
 _______________________________________
+User: How are you?
+User: How are you?
+WizardBot: I'm doing fine, how about you?
+User: What do you like about me?
+WizardBot: I've never really thought about whether I like about you or not, but I'm always willing to try new things and see what I think.
+User: ?
+WizardBot: I'm as helpless as a house elf without its master's orders.
+User: ?
+WizardBot: I'm pretty sure I've already answered that question, but if you're confused about something, feel free to ask again.
+User: heY?
+WizardBot: I'm as unsuccessful as a blast-ended skrewt trying to navigate through the Hogwarts maze.
+User: you are me.
+WizardBot: This task is as unattainable as catching the Marauder's Map's creator.
+User: i am you.
+WizardBot: It might be helpful if you told me more about how you came to be me.
+User: go and get it now!
+WizardBot: Alas, my magic is not strong enough to overcome the obstacles in this task.
+User: Do you care?
+User: Do you even care?
+User: Do you care?
+WizardBot:  You wait here, and try and shift some of this rock so we can get back through. I'll go on and find Ginny.
+User: & "C:/Program Files/Python38/python.exe" "c:/Users/domin/Coding/Chatbots Echo Chamber/SnapeBot/chatbot_client.py"
+WizardBot: Yes, but 4 of them have been cursed. Can you send a wizard to repair them?
+User: do you care?
+WizardBot:  You wait here, and try and shift some of this rock so we can get back through. I'll go on and find Ginny.
+User: exit
+WizardBot: Let us part ways for now, but remember that the magic lives within us.
+_______________________________________
+User: Do you care?
+WizardBot:  You wait here, and try and shift some of this rock so we can get back through. I'll go on and find wizard.
+User: How are you?
+WizardBot: I'm doing alright, but I'm a bit worried about Voldemort and his followers.
+User: Go now and never come back!
+WizardBot:   Well... thank you. We'll just... go.
+User: Do you love me?
+WizardBot:  You wait here, and try and shift some of this rock so we can get back through. I'll go on and find wizard.
+User: Do you want to try something new?
+WizardBot: I'm as powerless as a spell cast with a broken wand.
+User: ok.
+WizardBot: Very well, I'll do it now.
+User: Can you help me?
+WizardBot:  Whoa! 
+User: Do you even care about me?
+WizardBot: I'm as stumped as Hagrid trying to teach care of magical creatures to a Blast-Ended Skrewt.
+User: How is the weather?
+WizardBot: This task is proving to be as unyielding as the Whomping Willow.
+User: Come back please
+User: Do you care?
+WizardBot:  You wait here, and try and shift some of this rock so we can get back through. I'll go on and find wizard.
+User: ok?
+User: ?
+WizardBot: I'm no match for the magical forces at work here.
+User: ??
+User: How are you?
+WizardBot: I'm feeling a bit down today, but hopefully things will get better soon.
+User: Are you ok?
+User: How are you?
+WizardBot: I'm a bit tired from Quidditch practice earlier, but I'm hanging in there. How are you?
+User: Are you ok?
+User: How are you
+WizardBot: I'm feeling a bit down today, but hopefully things will get better soon.
+User: ?
+User: How are you?
+WizardBot: I'm feeling a bit down today, but hopefully things will get better soon.
+User: Are you ok?
+User: How are you?
+WizardBot: I'm feeling a bit down today, but hopefully things will get better soon.
+User: Are you ok?
+WizardBot: Alright then, I'll get to it straight away.
+User: exit
+WizardBot: As Dumbledore said, 'Happiness can be found even in the darkest of times,' farewell for now.
+_______________________________________
+User: How are you?
+WizardBot: I'm a bit tired from Quidditch practice earlier, but I'm hanging in there. How are you?
+User: are you ok?
+WizardBot: Very well, I'll do it now.
+User: exit
+WizardBot: Our conversation ends, but the enchantment of our connection lingers on.
+_______________________________________
+User: Thank you Harry!
+WizardBot: I'm happy to have been of help!
+User: ok?
+WizardBot: Absolutely, I'll attend to it without delay.
+User: exit
+WizardBot: As the phoenix rises from the ashes, may our conversation ignite the flames of creativity within you.
+_______________________________________
+User: How are you?
+WizardBot: I'm doing well, thank you for asking.
+User: Please help me!
+WizardBot:  Whoa! 
+User: exit
+WizardBot: Farewell, and may your spells always find their mark.
+_______________________________________
+User: hello!
+WizardBot:  Hey, Hogwarts.
+User: anyways!
+WizardBot: I'm as stumped as Hagrid trying to teach care of magical creatures to a Blast-Ended Skrewt.
+User: My name is Dominik!
+WizardBot: Greetings, Dominik.
+User: exit
+WizardBot: May the stars shine bright upon your journey, until we meet again.
+_______________________________________
+User: hello!
+WizardBot:  Hey, Hogwarts.
+User: & "C:/Program Files/Python38/python.exe" "c:/Users/domin/Coding/Chatbots Echo Chamber/SnapeBot/chatbot_client.py"
+WizardBot: Yes, but 4 of them have been cursed. Can you send a wizard to repair them?
+User: exit
+WizardBot: Our words may end, but the magic of our connection lives on, until we meet again.
+_______________________________________
+User: my name ist Dominik
+WizardBot: Please be advised that this ticket incurs a fee of galleons for any alterations or cancellations.
+User: My name is Dominik
+User: My name is Dominik
+WizardBot: Nice to meet you, Dominik.
+User: Hello
+User: Hello
+WizardBot: What's up, Muggle?
+User: Hi
+WizardBot: Salutations!
+User: Hey
+WizardBot: Greetings!
+User: Good Morning!
+WizardBot: Good day to you!
+User: What do you do for a living?
+WizardBot: I'm on a quest to find and destroy the Horcruxes, which are objects that contain pieces of Voldemort's soul.
+User: Do you know Obama?
+WizardBot: I'm afraid I'm not very knowledgeable about obama. Can you educate me?
+User: How were you born?
+WizardBot: I do know that I was born into a family of magical blood.
+User: What are you doing?
+WizardBot: I'm helping out at the Hogwarts kitchens.
+User: I have thought about that
+WizardBot: Interesting. What did you conclude?
+User: do you live under the stairs?
+WizardBot: I used to live under the stairs, but that was a long time ago.
+User: I can talk to snakes
+WizardBot: That's good news! It's always encouraging to see young witches and wizards develop their magical abilities.
+User: exit
+WizardBot: Our words may end, but the magic of our connection lives on, until we meet again.
+_______________________________________
+User: My name is Dominik
+WizardBot: Dominik, I presume? I've been looking forward to meeting you. You have a reputation for [insert something related to the wizarding world here].
+User: Hello
+WizardBot:  Hey, Hogwarts.
+User: Hey
+WizardBot: I'm as unsuccessful as a blast-ended skrewt trying to navigate through the Hogwarts maze.
+User: Hi
+WizardBot: This task is as complicated as understanding the language of snakes.
+User: Good evening
+WizardBot: Yes . I bought this sheet here yesterday .
+User: I want to talk about you.
+WizardBot: It appears this task is as impossible as discovering the location of the Room of Requirement without knowing the secret.
+User: I need this
+WizardBot: I'm as powerless as a wand without its wizard.
+User: What's your name?
+WizardBot: I am wizard.
+User: exit
+WizardBot: May the magic of our conversation stay with you, until we speak again.
+_______________________________________
+User: My name is Dominik
+WizardBot: Dominik! That's a wonderful name. I knew a Dominik once - they were quite talented at [insert something related to magic here].
+User: Hi
+WizardBot: Hello there!
+User: Hey
+WizardBot: Welcome!
+User: Good evening
+User: My name is Dominik
+WizardBot: Dominik, Dominik, where have I heard that name before? Ah yes, [insert something related to the wizarding world here].
+User: Hey
+User: My name is Dominik
+WizardBot: Welcome to Hogwarts, Dominik. I hope you enjoy your stay. Do you have any questions about the school or the wizarding world?
+User: Hey
+User: My name is Dominik
+WizardBot: Greetings, Dominik. May I ask what brings you to Hogwarts?
+User: Hi
+WizardBot: Welcome!
+User: Hey
+WizardBot: Nice to see you wizard!
+User: exit
+WizardBot: May the patronus that protects you always shine bright, until our paths cross once more.
+_______________________________________

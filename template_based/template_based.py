@@ -11,8 +11,12 @@ def templatebased_answer(user_input : str):
     for pattern, responses in patterns:
         match = re.search(pattern.lower(), str(user_input).lower().strip())
         if match:
-            answer = random.choice(responses)
-            return answer.format(*[reflect(g.strip(",.?!")) for g in match.groups()])
+            # get random response out of list
+            answer : str = random.choice(responses)
+            # replace matched group and reflect | replace user_name
+            answer = answer.format(*[reflect(g.strip(",.?!")) for g in match.groups()], user_name=memory.get_user_name())
+            
+            return answer
     return None
 
 def add_to_user_house_decision(input : str):

@@ -1,13 +1,9 @@
 patterns = [
-    [r'Hi|Hey|Hello|Good (.*)\!?',
+    [r'Hi|Hey|Hello|Good Morning|Good Evening|Good Night|Good Afternoon\!?',
      ["Hello there!",
       "Greetings!",
-      "Good day to you!",
       "Welcome!",
-      "Nice to see you!",
-      "It's a pleasure to meet you.",
-      "Salutations!",
-      "Good {0} to you!",
+      "Nice to see you {user_name}!",
       "What's up, Muggle?"]],
 
     [r'.*I.*to talk.*about (.*)',

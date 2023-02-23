@@ -27,7 +27,7 @@ def get_response(input: str):
     count_inputs += 1
     add_to_user_house_decision(input)
 
-    if (count_inputs == 2):
+    if (count_inputs == 10):
         user_house = choose_user_house()
         print("Hm... right. I see ... you're' a " + user_house + "!")
         memory.add_user_name(user_house)
@@ -86,6 +86,10 @@ def choose_user_house():
     for key, value in memory.get_input_counts().items():
         print(key + ": " + str(value))
         sum += value
+    
+    # if sum == 0, fallback
+    if (sum == 0):
+        return "Gryffindor"
 
     if (memory.input_count["questions"] / sum > 0.75):
         return "Ravenclaw"
