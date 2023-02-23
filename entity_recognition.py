@@ -1,6 +1,6 @@
 import spacy
 from spacy.pipeline import EntityRuler
-from custom_entities import entity_patterns
+import custom_entities
 import re
 import memory
 
@@ -8,7 +8,7 @@ import memory
 nlp = spacy.load("en_core_web_lg")
 
 ruler = nlp.add_pipe("entity_ruler", before="ner")
-ruler.add_patterns(entity_patterns)
+ruler.add_patterns(custom_entities.entity_patterns)
 
 def replace_entities(input : str, output : str):
     output_nlp = nlp(output)
