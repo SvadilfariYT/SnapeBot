@@ -255,7 +255,7 @@ patterns = [
       "I'm also an accomplished wizard, having defeated Lord Voldemort several times and even winning the Triwizard Tournament.",
       "I have a complicated relationship with Severus Snape, who was both my potions professor and a former Death Eater."]],
 
-    [r'What\'?s your name\??',
+    [r'What\'?s your name|What is your name\??',
      ["My name is Harry Potter. It's really nice to meet you!",
       "I'm Harry. Harry Potter."]],
 

@@ -17,7 +17,7 @@ def replace_entities(input : str, output : str):
 
     # Pre-Define entities
     entities = {
-        "PERSON": memory.get_user_name(),
+        "PERSON": memory.user_names,
         "ORG": custom_entities.org_patterns,
         "LOC": custom_entities.loc_patterns,
         "NORP": custom_entities.norp_patterns,
@@ -39,8 +39,18 @@ def replace_entities(input : str, output : str):
             else:
                 # If this is a new entity text, generate a new replacement string and add it to the dictionary
                 replacement_ent = random.choice(entities[output_ent.label_]) #get random of entities
-                entities[output_ent.label_].remove(replacement_ent) # remove from entities
-                replacement = replacement_ent["pattern"]
+
+                if(len(entities[output_ent.label_])>1):
+                    # remove from entities only if list won't be empty
+                    entities[output_ent.label_].remove(replacement_ent)
+
+                if (isinstance(replacement_ent, str)):
+                    replacement = replacement_ent
+                else:
+                    # only if replacement_ent is not of type str
+                    replacement = replacement_ent["pattern"]
+                
+
                 replaced_ents[output_ent.text] = replacement # save the replacement in replaced_ents
             
             # Replace the entity text with the replacement string
