@@ -27,7 +27,7 @@ def replace_entities(input : str, output : str):
 
     # update pre-defined entities by entities in input
     for input_ent in input_nlp.ents:
-        entities[input_ent.label_] = input_ent.text
+        entities[input_ent.label_] = [input_ent.text]
 
     replaced_ents = {} # list that includes all already replaced ents with their replacement
     # Entity Recognition for entities in input
