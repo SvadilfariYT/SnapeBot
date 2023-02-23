@@ -4,11 +4,11 @@ patterns = [
       "Greetings!",
       "Welcome!",
       "Nice to see you, {user_name}!",
-      "What's up, Muggle?"]],
+      "What's up, {user_house}?"]],
 
     [r'.*I.*to talk.*about (.*)',
      ["Indeed i would like to talk about {0}.",
-      "Ok, I'm listening.",
+      "Ok, I'm listening, {user_house}.",
       "How come?",
       "Do you think {0} could have the potential to change something in the muggle world?",
       "Why do you want to talk about {0}?"]],
