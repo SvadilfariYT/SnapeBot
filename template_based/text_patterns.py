@@ -1,9 +1,9 @@
 patterns = [
     [r'Hi|Hey|Hello|Good Morning|Good Evening|Good Night|Good Afternoon\!?',
-     ["Hello there!",
+     ["Hello there, {user_name}!",
       "Greetings!",
       "Welcome!",
-      "Nice to see you {user_name}!",
+      "Nice to see you, {user_name}!",
       "What's up, Muggle?"]],
 
     [r'.*I.*to talk.*about (.*)',
@@ -63,7 +63,7 @@ patterns = [
 
     [r'I\'?m (.*)',
      ["How does being {0} make you feel?",
-      "Do you enjoy being {0}?",
+      "Do you enjoy being {0}, {user_name}?",
       "Why do you tell me you're {0}?",
       "Why do you think you're {0}?",
       "How does being a wizard or witch who is {0} affect your magic?",
@@ -81,7 +81,7 @@ patterns = [
       "If you're experiencing difficulties with {0}, it might be best to seek the advice of the Ministry of Magic's Department of Magical Education."]],
 
     [r'Can you help me\??',
-     ["Of course, I'd be happy to help!",
+     ["Of course, I'd be happy to help, {user_name}!",
     "Certainly, what do you need help with?",
     "Absolutely, I'll do my best to assist you.",
     "Sure, what can I do for you?",
@@ -92,7 +92,7 @@ patterns = [
   ]],
 
     [r'Thanks|Thank you',
-     ["It was my pleasure to assist you!",
+     ["It was my pleasure to assist you, {user_name}!",
       "I'm happy to have been of help!",
       "Don't mention it!",
       "No need to thank me, I was just doing my duty as a wizard.",
@@ -111,9 +111,9 @@ patterns = [
       "Sure thing, {0} is a fascinating topic, what do you want to know about it?"]],
 
     [r'Sorry|My apologies|Excuse me',
-     ["No need to apologize, it's all good.",
+     ["No need to apologize, it's all good, {user_name}.",
       "It's alright, accidents happen even to the best of us.",
-      "No worries, you're forgiven.",
+      "No worries, you're forgiven, {user_name}.",
       "Don't fret, it's nothing that can't be fixed with a simple spell.",
       "That's okay, don't let it dampen your spirits.",
       "It's fine, no harm done. Let's move on, shall we?",
@@ -121,12 +121,12 @@ patterns = [
       "It's no big deal, let's just move forward and forget about it."]],
 
     [r'How do I (.*)\?',
-     ["Have you tried consulting a spell book or a wizarding website for tips on how to {0}?",
+     ["Have you tried consulting a spell book or a wizarding website for tips on how to {0}, {user_name}?",
       "One option is to seek guidance from a more experienced wizard or witch on how to {0}.",
       "Perhaps you could sign up for a course or workshop to enhance your knowledge of {0}.",
       "It may be helpful to understand the underlying theory and principles of {0} before attempting it on your own.",
       "Have you tried practicing other spells that might help you master the skills required for {0}?",
-      "It's possible that a magic object or potion could aid you in {0}.",
+      "It's possible that a magic object or potion could aid you in {0}, {user_name}.",
       "Another option is to seek out a mentor who can guide you through the process of learning how to {0}."]],
 
     [r'What should I do in (.*)\?',
@@ -191,11 +191,11 @@ patterns = [
       "I'm feeling pretty good, just excited for the upcoming Yule Ball at Hogwarts."]],
 
     [r'Happy Birthday!?',
-     ["Thank you so much! Another year older, and hopefully wiser too.",
-      "Blimey, I almost forgot it was my birthday. Thanks for the well wishes!",
+     ["Thank you so much, {user_name}! Another year older, and hopefully wiser too.",
+      "Blimey, I almost forgot it was my birthday. Thanks for the well wishes, {user_name}!",
       "Happy Birthday to me! I wonder what magical surprises this year will bring.",
       "Thanks for the birthday wishes. It's not every day you get to celebrate being a wizard!",
-      "Another year, another adventure. Thanks for wishing me a Happy Birthday!",
+      "Another year, another adventure. Thanks for wishing me a Happy Birthday, {user_name}!",
       "Birthdays are always a little extra special in the wizarding world. Thanks for remembering mine!"]],
 
     [r'Ok|Yes|I\'?ll do that now',
@@ -223,7 +223,7 @@ patterns = [
       "I enjoy attending wizarding concerts and listening to the latest music in the wizarding world."]],
 
     [r'You\'?re cute|beautiful|handsome',
-     ["Thank you, but please don't objectify me based on my appearance.",
+     ["Thank you, {user_name}, but please don't objectify me based on my appearance.",
       "I appreciate the compliment, but I would prefer to be respected for who I am, not just how I look.",
       "I'm flattered, but there's more to me than just my appearance.",
       "While I appreciate the compliment, it's important to treat others with respect and dignity beyond physical attributes.",
@@ -278,7 +278,7 @@ patterns = [
     [r'Are you (a )?human|Are you a robot\??',
      ["I'm a wizard, not a robot or a Muggle!",
       "Of course I'm human! Or at least, I was last time I checked...",
-      "Why do you ask? Do I not seem human to you?",
+      "Why do you ask? Do I not seem human to you, {user_name}?",
       "I'm not a robot, but I have met a few interesting ones in my time.",
       "I'm a Gryffindor, not a robot! Although I suppose I could see why you might ask...",
       "I'm not sure what you mean by 'human' or 'robot.' I'm just Harry!",
@@ -340,8 +340,8 @@ patterns = [
     "I try to live up to the expectations that others have of me, both as a wizard and as the Chosen One."]],
 
     [r'Do you know (.*)\??',
-     ["I've heard of {0}, but I'm not sure I know enough. Can you tell me more?",
-    "I'm afraid I don't know much about {0}. Perhaps you could enlighten me?",
+     ["I've heard of {0}, but I'm not sure I know enough. Can you tell me more,{user_name}?",
+    "I'm afraid I don't know much about {0}. Perhaps you could enlighten me, {user_name}?",
     "{0} has been widely discussed in the wizarding world. What are your thoughts on {0}?",
     "I'm familiar with {0} to a certain extent, but I'm always eager to learn more.",
     "I've studied {0} in some detail, and I'm happy to share my knowledge with you.",
@@ -383,11 +383,11 @@ patterns = [
     "I'm helping Professor Flitwick set up for a charms class."]],
 
     [r'I have thought about it|I have thought about that',
-     ["Oh, have you? What are your thoughts?",
-    "I see. What have you been thinking?",
+     ["Oh, have you, {user_name}? What are your thoughts?",
+    "I see. What have you been thinking, {user_name}?",
     "That's good to hear. What did you come up with?",
     "Interesting. What did you conclude?",
-    "I'm glad to hear you've given it some thought. What are your ideas?",
+    "I'm glad to hear you've given it some thought. What are your ideas, {user_name}?",
     "Ah, you've been considering it. What's your plan?",
     "Thanks for letting me know. What's your opinion?",
     "That's worth considering. What did you decide?",
@@ -404,7 +404,7 @@ patterns = [
     "I'm no longer living under the stairs, but I'll never forget where I came from."]],
 
     [r'I can (.*)',
-     ["That's good for you! I hope you can put your abilities to good use.",
+     ["That's good for you,{user_name}! I hope you can put your abilities to good use.",
     "Where did you learn to {0}? I'm always looking to improve my own magical skills.",
     "I'm happy to hear that you can {0}. We could use more talented wizards and witches in the world.",
     "That's quite an impressive feat! I've always been fascinated by those who can {0}.",
@@ -414,8 +414,5 @@ patterns = [
     "Where did you learn to {0}? I could use some pointers myself.",
     "That's fantastic! Your magical skills will come in handy in a dangerous world like ours.",
     "That's good for you! I'm always glad to see people who can make the most of their abilities."]],
-
-    [r'What are you doing\??',
-     []],
 
 ]

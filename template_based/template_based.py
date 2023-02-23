@@ -14,7 +14,9 @@ def templatebased_answer(user_input : str):
             # get random response out of list
             answer : str = random.choice(responses)
             # replace matched group and reflect | replace user_name
-            answer = answer.format(*[reflect(g.strip(",.?!")) for g in match.groups()], user_name=memory.get_user_name())
+            answer = answer.format(*[reflect(g.strip(",.?!")) for g in match.groups()], 
+                user_name=memory.get_user_name(), 
+                user_house=memory.get_user_house())
             
             return answer
     return None

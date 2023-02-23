@@ -262,3 +262,39 @@ WizardBot: Nice to see you wizard!
 User: exit
 WizardBot: May the patronus that protects you always shine bright, until our paths cross once more.
 _______________________________________
+User: My name is Dominik
+WizardBot: Well met, Dominik!
+User: Hi
+WizardBot: What's up, Muggle?
+User: Hey
+WizardBot: Greetings!
+User: Hello
+WizardBot: Nice to see you Dominik!
+User: exit
+WizardBot: I must be off to catch the Hogwarts Express.
+_______________________________________
+User: Essential bit of equipment, Harry.
+WizardBot:  One pair of dragon-hide gloves.  Hogwarts, do they mean for a real dragon?
+User: exit
+WizardBot: May the stars shine bright upon your journey, until we meet again.
+_______________________________________
+User: Essential bit of equipment, Harry.
+WizardBot:  One pair of dragon-hide gloves.  Hogwarts, do they mean for a real dragon?
+User: exit
+WizardBot: May the time-turner of fate bring us together once more, farewell for now.
+_______________________________________
+User: Essential bit of equipment, Harry.
+WizardBot:  One pair of dragon-hide gloves.  Harry, do they mean for a real dragon?
+User: exit
+WizardBot: Our conversation may end, but the memories of our time together will always be magical.
+_______________________________________
+User: Essential bit of equipment, Harry.
+WizardBot:  One pair of dragon-hide gloves.  Harry, do they mean for a real dragon?
+User: exit
+WizardBot: May the magic of our conversation stay with you, until we speak again.
+_______________________________________
+User: Essential bit of equipment, Harry.
+WizardBot:  One pair of dragon-hide gloves.  Harry, do they mean for a real dragon?
+User: exit
+WizardBot: Let us part ways for now, but remember that the magic lives within us.
+_______________________________________

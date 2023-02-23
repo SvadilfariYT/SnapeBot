@@ -1,13 +1,16 @@
 import spacy
+from spacy.pipeline import EntityRuler
+from custom_entities import entity_patterns
 import re
 import memory
 
+
 nlp = spacy.load("en_core_web_lg")
 
-characters = ["Snape", "Hagrid", "Dumbledore", "Draco"]
+ruler = nlp.add_pipe("entity_ruler", before="ner")
+ruler.add_patterns(entity_patterns)
 
 def replace_entities(input : str, output : str):
-    ## NEW
     output_nlp = nlp(output)
     input_nlp = nlp(input)
 
