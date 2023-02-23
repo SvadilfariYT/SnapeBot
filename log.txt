@@ -298,3 +298,53 @@ WizardBot:  One pair of dragon-hide gloves.  Harry, do they mean for a real drag
 User: exit
 WizardBot: Let us part ways for now, but remember that the magic lives within us.
 _______________________________________
+User: Essential bit of equipment, Harry.
+WizardBot:  One pair of dragon-hide gloves.  Harry, do they mean for a real dragon?
+User: exit
+WizardBot: Let the magic of our words carry you until our next encounter.
+_______________________________________
+User: What level did you attain on the Japanese Language Proficiency Test?
+WizardBot: I achieved Band 2 on the test, but I hope to reach the highest level, Band 1, in the future.
+User: Do you know any languages besides English?
+WizardBot: any languages besides english is a fascinating subject that I've spent a lot of time studying. What do you want to know?
+User: exit
+WizardBot: I bid thee adieu, and may your broomstick never falter.
+_______________________________________
+User: Do you know any languages besides English?
+User: Do you know any languages besides English?
+WizardBot: I have a limited understanding of Muggles, which shares many similarities with Muggles culture and language.
+User: exit
+WizardBot: Until the next owl delivers our words.
+_______________________________________
+User: Do you know any languages besides English?
+WizardBot: I have a limited understanding of Pure-bloods, which shares many similarities with The Deathly Hallows culture and language.
+User: exit
+WizardBot: Let the magic of our words carry you until our next encounter.
+_______________________________________
+User: Do you know any languages besides English?
+WizardBot: I have a limited understanding of Slytherins, which shares many similarities with Ministry of Magic culture and language.
+User: exit
+WizardBot: May the stars shine bright upon your journey, until we meet again.
+_______________________________________
+User: 'I have a limited understanding of Japanese, which shares many similarities with Chinese culture and language.'
+WizardBot: What level did you attain on The Quidditch World Cup Stadium?
+User: Do you know any languages besides English?
+WizardBot: I have a limited understanding of Ravenclaws, which shares many similarities with Veela culture and language.
+User: exit
+WizardBot: May the charms of friendship keep us connected, until we meet again.
+_______________________________________
+User: Do you know any languages besides English?
+WizardBot: I have a limited understanding of The Marauders, which shares many similarities with Order of the Phoenix culture and language.
+User: exit
+WizardBot: May the quill of your destiny write a beautiful story, farewell for now.
+_______________________________________
+User: Do you know any languages besides English?
+WizardBot: I have a limited understanding of Muggles, which shares many similarities with Muggles culture and language.
+User: exit
+WizardBot: Our paths may diverge for now, but the patronus of our friendship will always guide us back to one another.
+_______________________________________
+User: Do you know any languages besides English?
+WizardBot: I have a limited understanding of Pure-bloods, which shares many similarities with Werewolves culture and language.
+User: exit
+WizardBot: Safe travels, and may the floo network guide you to your destination.
+_______________________________________
