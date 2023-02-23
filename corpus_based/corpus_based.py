@@ -19,15 +19,15 @@ with open("config.yml", "r") as f:
 data = pd.read_json("corpus_based/data.json")
 data.columns = ["questions", "responses"]
 
-data_2 = pd.read_json("corpus_based/data_2.json")
-data_2.columns = ["questions", "responses"]
+data_daily_dialogue = pd.read_json("corpus_based/data_daily_dialogue.json")
+data_daily_dialogue.columns = ["questions", "responses"]
 
 # load the vectors from the file
 with open("corpus_based/vectors.pkl", "rb") as f:
     question_vectors = pickle.load(f)
 
-with open("corpus_based/vectors_2.pkl", "rb") as f:
-    question_vectors_2 = pickle.load(f)
+with open("corpus_based/vectors_daily_dialogue.pkl", "rb") as f:
+    question_vectors_daily_dialogue = pickle.load(f)
 
 # Access the values in the configuration
 min_df = config["TFIDF"]["min_df"]
@@ -39,7 +39,7 @@ tfidf = TfidfVectorizer(min_df=min_df, max_df=max_df, ngram_range=ngram_range, s
 tfidf.fit_transform(data.questions + data.responses)
 
 tfidf_2 = TfidfVectorizer(min_df=min_df, max_df=max_df, ngram_range=ngram_range, stop_words=['english'], sublinear_tf=True)
-tfidf_2.fit_transform(data_2.questions + data_2.responses)
+tfidf_2.fit_transform(data_daily_dialogue.questions + data_daily_dialogue.responses)
 
 def corpusbased_answer(user_input : str, required_similarity : float):
     user_input_tfidf = tfidf.transform([user_input])
@@ -62,15 +62,15 @@ def corpusbased_answer(user_input : str, required_similarity : float):
 
     return response
 
-def corpusbased_answer_2(user_input : str, required_similarity : float):
+def corpusbased_answer_daily_dialogue(user_input : str, required_similarity : float):
     user_input_tfidf = tfidf_2.transform([user_input])
 
-    similarities = cosine_similarity(user_input_tfidf, question_vectors_2)
+    similarities = cosine_similarity(user_input_tfidf, question_vectors_daily_dialogue)
 
     idx = np.argsort(similarities)[0][-1]
 
-    question = data_2.loc[idx, "questions"] 
-    response = data_2.loc[idx, "responses"] 
+    question = data_daily_dialogue.loc[idx, "questions"] 
+    response = data_daily_dialogue.loc[idx, "responses"] 
     similarity = similarities[0][idx]
     
     # print(Fore.RED + "DEBUG GPT: Question: " + question + "\n Answer: " + response + "\n Similarity: " + str(similarity) + Style.RESET_ALL) #Debugging

@@ -100,10 +100,10 @@ if __name__ == '__main__':
     question_vectors = vectorize_questions(data)
 
     # Save
-    data.to_json("./corpus_based/data_2.json")
+    data.to_json("./corpus_based/data_daily_dialogue.json")
 
     # Save the vectors to a file
-    with open("./corpus_based/vectors_2.pkl", "wb") as f:
+    with open("./corpus_based/vectors_daily_dialogue.pkl", "wb") as f:
         pickle.dump(question_vectors, f)
 
     print("Done!")

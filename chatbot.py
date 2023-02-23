@@ -1,5 +1,5 @@
 from corpus_based.corpus_based import corpusbased_answer
-from corpus_based.corpus_based import corpusbased_answer_2
+from corpus_based.corpus_based import corpusbased_answer_daily_dialogue
 from template_based.template_based import templatebased_answer
 from template_based.template_based import special_patterns
 from template_based.template_based import add_to_user_house_decision
@@ -50,7 +50,7 @@ def get_response(input: str):
 
     # Corpus-Based-Matching 2 (Tfidf)
     if(answer == None):
-        answer = corpusbased_answer_2(input, 0.58)
+        answer = corpusbased_answer_daily_dialogue(input, 0.58)
 
     # Standard/Fallback Answer
     if(answer == None):
