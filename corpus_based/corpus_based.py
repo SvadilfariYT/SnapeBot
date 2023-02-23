@@ -35,10 +35,10 @@ max_df = config["TFIDF"]["max_df"]
 ngram_range = (config["TFIDF"]["ngram_range_min"], config["TFIDF"]["ngram_range_max"])
 
 # define tfidfs
-tfidf = TfidfVectorizer(min_df=min_df, max_df=max_df, ngram_range=ngram_range, stop_words={'english'}, sublinear_tf=True)
+tfidf = TfidfVectorizer(min_df=min_df, max_df=max_df, ngram_range=ngram_range, stop_words=['english'], sublinear_tf=True)
 tfidf.fit_transform(data.questions + data.responses)
 
-tfidf_2 = TfidfVectorizer(min_df=min_df, max_df=max_df, ngram_range=ngram_range, stop_words={'english'}, sublinear_tf=True)
+tfidf_2 = TfidfVectorizer(min_df=min_df, max_df=max_df, ngram_range=ngram_range, stop_words=['english'], sublinear_tf=True)
 tfidf_2.fit_transform(data_2.questions + data_2.responses)
 
 def corpusbased_answer(user_input : str, required_similarity : float):
@@ -52,7 +52,7 @@ def corpusbased_answer(user_input : str, required_similarity : float):
     response = data.loc[idx, "responses"] 
     similarity = similarities[0][idx]
 
-    print(Fore.RED + "DEBUG Harry: Question: " + question + "\n Answer: " + response + "\n Similarity: " + str(similarity) + Style.RESET_ALL) #Debugging
+    # print(Fore.RED + "DEBUG Harry: Question: " + question + "\n Answer: " + response + "\n Similarity: " + str(similarity) + Style.RESET_ALL) #Debugging
     
     response = replace_entities(user_input, response)
 
@@ -73,7 +73,7 @@ def corpusbased_answer_2(user_input : str, required_similarity : float):
     response = data_2.loc[idx, "responses"] 
     similarity = similarities[0][idx]
     
-    print(Fore.RED + "DEBUG GPT: Question: " + question + "\n Answer: " + response + "\n Similarity: " + str(similarity) + Style.RESET_ALL) #Debugging
+    # print(Fore.RED + "DEBUG GPT: Question: " + question + "\n Answer: " + response + "\n Similarity: " + str(similarity) + Style.RESET_ALL) #Debugging
 
     response = replace_entities(user_input, response)
 

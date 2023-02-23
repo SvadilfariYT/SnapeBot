@@ -5,6 +5,7 @@ from special_patterns import introductions
 import re
 import random
 import memory
+from colorama import Fore, Style
 
 def templatebased_answer(user_input : str):
 # Test input string for all known text patterns in pychobabble
