@@ -76,7 +76,7 @@ def choose_user_house():
 
     # sum up all values to check percentages
     for key, value in memory.get_input_counts().items():
-        print(key + ": " + str(value))
+        #print(key + ": " + str(value))
         sum += value
     
     # if sum == 0, fallback
